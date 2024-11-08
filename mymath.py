@@ -1,19 +1,20 @@
 def add_three(a, b, c):
-    return -1
+    return a + b + c
 
 def subtract_three(a, b, c):
-    return -1
+    return a - b - c
 
 def multiply_three(a, b, c):
-    return -1
+    return a * b * c
 
 def divide_three(a, b, c):
-    return -1
+    # Assuming you want to divide a by b, then by c
+    if b == 0 or c == 0:
+        return "Cannot divide by zero"
+    return a / b / c
 
 def square(a):
-    #return a**2
-    return -1
+    return a ** 2
 
 def cube(a):
-    #return a**3
-    return -1
+    return a ** 3
